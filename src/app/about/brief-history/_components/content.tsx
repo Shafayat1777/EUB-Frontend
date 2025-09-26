@@ -9,9 +9,9 @@ const Content = () => {
         <div>
           <div className='relative mb-4 aspect-video lg:float-left lg:mb-0 lg:mr-8 lg:h-[300px]'>
             <Image
-              className='object-contain'
+              className='object-cover'
               fill
-              src='/brief-history-1.png'
+              src='/DJI_0721_Edited_1.jpg'
               alt='Dummy Cover Image'
             />
           </div>
@@ -44,7 +44,7 @@ const Content = () => {
             <Image
               className='object-cover'
               fill
-              src='/brief-history-2.jpg'
+              src='/DJI_0715_1.jpg'
               alt='Dummy Cover Image'
             />
           </div>
