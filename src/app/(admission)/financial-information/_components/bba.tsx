@@ -32,6 +32,11 @@ const BBA: React.FC<{
       type: 'currency',
     },
     {
+      accessorKey: 'admission_fee',
+      header: 'Admission Fee',
+      type: 'currency',
+    },
+    {
       accessorKey: 'waiver_50',
       header: '50% of Waiver',
       type: 'currency',
@@ -54,6 +59,11 @@ const BBA: React.FC<{
     {
       accessorKey: 'waiver_80',
       header: '80% Waiver (GPA 9.0 < 10.0)',
+      type: 'currency',
+    },
+    {
+      accessorKey: 'waiver_85',
+      header: '85% Waiver',
       type: 'currency',
     },
     {
@@ -85,6 +95,11 @@ const BBA: React.FC<{
     {
       accessorKey: 'total_waiver_amount',
       header: 'Total Waiver Amount',
+      type: 'currency',
+    },
+    {
+      accessorKey: 'admission_fee',
+      header: 'Admission Fee',
       type: 'currency',
     },
     {

@@ -32,6 +32,11 @@ const Arts: React.FC<{
       type: 'currency',
     },
     {
+      accessorKey: 'admission_fee',
+      header: 'Admission Fee',
+      type: 'currency',
+    },
+    {
       accessorKey: 'waiver_50',
       header: '50% of Waiver',
       type: 'currency',
@@ -57,8 +62,18 @@ const Arts: React.FC<{
       type: 'currency',
     },
     {
+      accessorKey: 'waiver_85',
+      header: '85% Waiver',
+      type: 'currency',
+    },
+    {
       accessorKey: 'waiver_90',
       header: '90% Waiver',
+      type: 'currency',
+    },
+    {
+      accessorKey: 'waiver_95',
+      header: '95% Waiver',
       type: 'currency',
     },
     {
@@ -85,6 +100,11 @@ const Arts: React.FC<{
     {
       accessorKey: 'total_waiver_amount',
       header: 'Total Waiver Amount',
+      type: 'currency',
+    },
+    {
+      accessorKey: 'admission_fee',
+      header: 'Admission Fee',
       type: 'currency',
     },
     {

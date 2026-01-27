@@ -20,8 +20,9 @@ const ProgramLayout: React.FC<{ children: React.ReactNode }> = ({
         <PageLayout
           pages={pages}
           bannerImage={{
-            src: '/banner.jpg',
+            src: '/images/programs/mechanical/bsc-mechanical-cover.jpg',
             alt: 'B. Sc. in Mechanical Engineering (ME)',
+            className: 'object-center',
           }}
         >
           {children}

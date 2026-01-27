@@ -32,9 +32,9 @@ const AuthoritiesInfoCard: React.FC<{ data: IAuthorityInfo }> = ({ data }) => {
           <p className='mt-2 text-muted-foreground'>
             {data.personal_info.title}
           </p>
-          <p className='mt-2 text-muted-foreground'>
+          <div className='mt-2 text-muted-foreground'>
             <RichTextViewer content={data.education as string} />
-          </p>
+          </div>
           <ul className='mt-4 space-y-1'>
             <li>
               <span className='font-semibold'>Email :</span>{' '}

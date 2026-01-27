@@ -32,6 +32,11 @@ const EngineeringDiploma: React.FC<{
       type: 'currency',
     },
     {
+      accessorKey: 'admission_fee',
+      header: 'Admission Fee',
+      type: 'currency',
+    },
+    {
       accessorKey: 'waiver_50',
       header: '50% of Waiver',
       type: 'currency',

@@ -342,6 +342,7 @@ export type IFinancialFaculty = {
   total_credit: number;
   total_cost: number;
   total_waiver_amount: number;
+  admission_fee: number;
   waiver_50: number;
   waiver_55: number;
   waiver_60: number;

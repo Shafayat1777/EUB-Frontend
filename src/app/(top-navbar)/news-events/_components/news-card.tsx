@@ -14,7 +14,6 @@ import { Button } from '@/components/ui/button';
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -53,9 +52,9 @@ const NewsCard: React.FC<{ item: INewsPortal }> = ({ item }) => {
           </CardTitle>
         </Link>
         {item.description && (
-          <CardDescription className='mt-1 line-clamp-3'>
+          <div className='mt-1 line-clamp-3'>
             <RichTextViewer content={item.description.slice(0, 90) + '...'} />
-          </CardDescription>
+          </div>
         )}
       </CardContent>
       <CardFooter className='flex justify-between'>

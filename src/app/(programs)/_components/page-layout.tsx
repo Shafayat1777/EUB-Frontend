@@ -28,6 +28,7 @@ const PageLayout: React.FC<{
   bannerImage: {
     src: string;
     alt: string;
+    className?: string;
   };
   showQuickLinks?: boolean;
   children: React.ReactNode;
@@ -44,7 +45,7 @@ const PageLayout: React.FC<{
             <div className='relative aspect-video w-full lg:aspect-auto lg:h-full lg:min-h-[360px]'>
               <Image
                 fill
-                className='object-cover object-top'
+                className={cn('object-cover object-top', bannerImage.className)}
                 src={bannerImage.src}
                 alt={bannerImage.alt}
               />

@@ -39,7 +39,7 @@ const OnlineAdmissionProcess = () => {
 
       <SectionContent title='Step 2 - Payment options for Application Fee'>
         <ul className='list-inside list-decimal space-y-3'>
-          <li>You have to send: Tk. 10,200.00 (For Admission Fee)</li>
+          <li>You have to send: Tk. 15,000.00 (For Admission Fee)</li>
           <li>
             Send the admission fee on this bKash Account number:{' '}
             <strong>01628-747-488</strong>
